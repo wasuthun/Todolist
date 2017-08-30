@@ -7,7 +7,6 @@ import Content from './containers/Content';
 class App extends Component {
   constructor(props){
     super(props);
-    console.log(localStorage.getItem('todos'))
     let todos;
     if (localStorage.getItem('todos')==null) {
       todos=[];
