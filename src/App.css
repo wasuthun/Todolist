@@ -4,6 +4,37 @@
 }
 .header {
   margin: 50px auto;
-  color: black;
-  background: white;
+  color: pink;
+  background: yellow;
+}
+.content{
+  display: flex;
+}
+.todo-input{
+  flex: 1;
+  font-size: 30px;
+}
+.todo-btn{
+  height: 50px;
+  width: 100px;
+}
+.todo{
+ text-align:  left;
+ padding: 20px;
+ border: 1px black solid;
+ flex: 1;
+}
+.remove-btn{
+  width: 100px;
+  height: 56px;
+  background: red;
+  color: white;
+}
+.todo-wrapper{
+  display: flex;
+  align-items: center;
+}
+.input-checkbox{
+  width:80px;
+  height: 40px;
 }
